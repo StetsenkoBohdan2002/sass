@@ -29,13 +29,10 @@
     "node": ">=4"
   },
   "peerDependencies": {
-    "node-sass": ">=3.8.0",
     "sass": ">=1"
   },
-  "peerDependenciesMeta":{
-    "node-sass": {
-      "optional": true 
-     }
+  "optionalDependencies": {
+    "node-sass": ">=3.8.0"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
